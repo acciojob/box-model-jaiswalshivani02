@@ -1,1 +1,36 @@
 /*  your css code here. If applicable */
+/* Reset some default browser styles */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the container horizontally and give it some padding and a border */
+.container {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #333;
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+/* Define the size, shape, and color of each block */
+.red, .green, .yellow {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Create circular shape */
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
